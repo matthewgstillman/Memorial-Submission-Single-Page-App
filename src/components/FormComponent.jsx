@@ -20,6 +20,10 @@ const FormComponent = () => {
     });
   };
 
+  const inlineStyle = {
+    display: 'inline-block',
+  };
+
   if (state.succeeded) {
     return <p>Thanks for your submission!</p>;
   }
@@ -30,9 +34,13 @@ const FormComponent = () => {
         <Col md={8}>
           <h1 className="titleText">Susan Lyons Memorial Website</h1>
           <img src={memorialPic} alt="Memorial Pic" className="img-fluid mb-4" />
-          <p className="mainParagraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          <div className="mainParagraph">
+            <p>Susan Lyons was a beautiful person who had a positive impact on many people.</p>
+            <p>We are planning a Celebration of Life for Susan, tentatively in mid-September.</p>
+            <p>The details are still being worked out. We will post details here when they are complete.</p>
+            <p>If you provide your contact information below, we will email you with information about the Celebration of Life, when plans are complete.</p>
+            <p>You can also use this to send a message to Susan’s husband, David Stillman.</p>
+            </div>
           <Form onSubmit={handleSubmit}>
             <Form.Group className="formFirstName" controlId="formFirstName">
               <Form.Label>First Name:</Form.Label>
@@ -85,6 +93,7 @@ const FormComponent = () => {
                 <option value="friend">Friend</option>
                 <option value="family">Family</option>
                 <option value="colleague">Colleague</option>
+                <option value="patient">Patient</option>
               </Form.Control>
             </Form.Group>
 
