@@ -1,0 +1,39 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+form label {
+  margin: 10px 0 5px;
+}
+form input, form select, form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+form button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #45a049;
+}
+
+.body {
+  background-color: #00a9e0;
+  height: 100vh;
+}
+
+.mainContainer {
+  background-color: #00a9e0;
+  padding: 20px;
+}
+.mainContainer .img-fluid mb-4 {
+  max-width: 30%;
+}/*# sourceMappingURL=App.css.map */
