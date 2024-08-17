@@ -26,9 +26,13 @@ const FormComponent = () => {
     <div className="mainContainer">
         <Row className="justify-content-center">
           <Col md={8}>
+            <h1 className="titleText">Susan Lyons Memorial Website</h1>
             <img src={memorialPic} alt="Memorial Pic" className="img-fluid mb-4" />
+            <p className="mainParagraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
             <Form onSubmit={handleSubmit}>
-              <Form.Group controlId="formFirstName">
+              <Form.Group className="formFirstName" controlId="formFirstName">
                 <Form.Label>First Name:</Form.Label>
                 <Form.Control
                   type="text"
@@ -39,7 +43,7 @@ const FormComponent = () => {
                 />
               </Form.Group>
 
-              <Form.Group controlId="formLastName">
+              <Form.Group className="formLastName" controlId="formLastName">
                 <Form.Label>Last Name:</Form.Label>
                 <Form.Control
                   type="text"
@@ -50,7 +54,7 @@ const FormComponent = () => {
                 />
               </Form.Group>
 
-              <Form.Group controlId="formEmail">
+              <Form.Group className="formEmail" controlId="formEmail">
                 <Form.Label>Email:</Form.Label>
                 <Form.Control
                   type="email"
@@ -61,8 +65,8 @@ const FormComponent = () => {
                 />
               </Form.Group>
 
-              <Form.Group controlId="formRelation">
-                <Form.Label>How You Know Susan:</Form.Label>
+              <Form.Group className="formRelation" controlId="formRelation">
+                <Form.Label>How Do You Know Susan:</Form.Label>
                 <Form.Control
                   as="select"
                   name="relation"
@@ -77,7 +81,7 @@ const FormComponent = () => {
                 </Form.Control>
               </Form.Group>
 
-              <Form.Group controlId="formMessage">
+              <Form.Group className="formMessage" controlId="formMessage">
                 <Form.Label>Message:</Form.Label>
                 <Form.Control
                   as="textarea"
