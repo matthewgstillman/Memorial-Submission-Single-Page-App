@@ -4,7 +4,7 @@
 
 .mainContainer {
   background-color: #00a9e0;
-  padding: 20px;
+  padding: 20px 0 40px;
 
   .img-fluid.mb-4 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
@@ -15,6 +15,7 @@
     background-color: white;
     border-radius: 10px;
     font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
     padding: 20px;
   }
