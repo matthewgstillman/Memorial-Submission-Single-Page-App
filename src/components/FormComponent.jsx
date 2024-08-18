@@ -85,7 +85,7 @@ const FormComponent = () => {
               </Form.Group>
   
               <Form.Group className="formRelation" controlId="formRelation">
-                <Form.Label className="formLabel">How Do You Know Susan:</Form.Label>
+                <Form.Label className="formLabel">How did you know Susan?:</Form.Label>
                 <Form.Control
                   as="select"
                   name="relation"
