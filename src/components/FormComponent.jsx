@@ -42,7 +42,7 @@ const FormComponent = () => {
             <p>We are planning a Celebration of Life for Susan, tentatively in mid-September.</p>
             <p>The details are still being worked out. We will post details here when they are complete.</p>
             <p>The contact info boxes below are optional. If you provide your contact information, we will email you with information about the Celebration of Life, when plans are complete.</p>
-            <p>You can also use these contact boxes to send a message to Susan’s husband, David Stillman.</p>
+            <p>You can also use these contact boxes to send a message to Susan’s husband, David Stillman, particularly if you want info on a video tribute website or a photo gallery of Susan.</p>
           </section>
           <section>
             <Form onSubmit={handleSubmit}>
