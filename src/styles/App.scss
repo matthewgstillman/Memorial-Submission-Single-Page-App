@@ -6,7 +6,7 @@
 }
 
 .mainContainer {
-  background-color: #00a9e0;
+  background-color: #bccff4;
   padding: 20px 0 40px;
   box-sizing: border-box;
   width: 100%;
@@ -27,19 +27,24 @@
   }
 
   .img-fluid.mb-4 {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4), 0 12px 30px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     width: auto;
     display: inline-block;
   }
-
+  
   .mainParagraph {
     background-color: white;
     border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4), 0 12px 30px rgba(0, 0, 0, 0.3);
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 20px;
+
+    p {
+      margin-bottom: 20px;
+    }
   }
 
   .titleText, .subtitleText {
