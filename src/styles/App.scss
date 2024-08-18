@@ -1,14 +1,36 @@
 .body {
   height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .mainContainer {
   background-color: #00a9e0;
   padding: 20px 0 40px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
 
   .img-fluid.mb-4 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
     border-radius: 10px;
+    width: auto;
+    display: inline-block;
   }
 
   .mainParagraph {
@@ -20,37 +42,31 @@
     padding: 20px;
   }
 
-  .titleText {
+  .titleText, .subtitleText {
     text-align: center;
     margin-bottom: 20px;
   }
 
-  .subtitleText {
-    text-align: center;
+  .formFirstName, .formLastName, .formEmail, .formRelation, .formMessage {
     margin-bottom: 20px;
-  }
-
-  .formFirstName {
-    margin-bottom: 20px;
-  }
-
-  .formLastName {
-    margin-bottom: 20px;
-  }
-
-  .formEmail {
-    margin-bottom: 20px;
-  }
-
-  .formRelation {
-    margin-bottom: 20px;
-  }
-
-  .formMessage {
-    margin-bottom: 20px;
+    text-align: left;
   }
 
   .formLabel {
     font-weight: 700;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
 }

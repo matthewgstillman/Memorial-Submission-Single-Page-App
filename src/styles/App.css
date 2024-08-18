@@ -1,14 +1,36 @@
 .body {
   height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .mainContainer {
   background-color: #00a9e0;
   padding: 20px 0 40px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .mainContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.mainContainer * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 .mainContainer .img-fluid.mb-4 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
   border-radius: 10px;
+  width: auto;
+  display: inline-block;
 }
 .mainContainer .mainParagraph {
   background-color: white;
@@ -18,29 +40,26 @@
   margin-bottom: 20px;
   padding: 20px;
 }
-.mainContainer .titleText {
+.mainContainer .titleText, .mainContainer .subtitleText {
   text-align: center;
   margin-bottom: 20px;
 }
-.mainContainer .subtitleText {
-  text-align: center;
+.mainContainer .formFirstName, .mainContainer .formLastName, .mainContainer .formEmail, .mainContainer .formRelation, .mainContainer .formMessage {
   margin-bottom: 20px;
-}
-.mainContainer .formFirstName {
-  margin-bottom: 20px;
-}
-.mainContainer .formLastName {
-  margin-bottom: 20px;
-}
-.mainContainer .formEmail {
-  margin-bottom: 20px;
-}
-.mainContainer .formRelation {
-  margin-bottom: 20px;
-}
-.mainContainer .formMessage {
-  margin-bottom: 20px;
+  text-align: left;
 }
 .mainContainer .formLabel {
   font-weight: 700;
+}
+.mainContainer .form-control {
+  width: 100%;
+}
+.mainContainer .row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: 0 !important;
+  margin-left: 0 !important;
 }/*# sourceMappingURL=App.css.map */

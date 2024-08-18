@@ -33,7 +33,7 @@ const FormComponent = () => {
       <Row className="justify-content-center">
         <Col md={8}>
           <h1 className="titleText">Susan Lyons Celebration of Life</h1>
-          <h2 className="subtitleText">Sign Up For Updates</h2>
+          <h2 className="subtitleText">Sign up for Updates</h2>
           <img src={memorialPic} alt="Memorial Pic" className="img-fluid mb-4" />
           <div className="mainParagraph">
             <p>Susan Lyons was a beautiful person who had a positive impact on many people.</p>
