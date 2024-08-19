@@ -67,4 +67,8 @@
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: 0 !important;
   margin-left: 0 !important;
+}
+
+.submission {
+  height: 100vh;
 }/*# sourceMappingURL=App.css.map */

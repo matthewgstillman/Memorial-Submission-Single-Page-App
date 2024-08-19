@@ -25,7 +25,9 @@ const FormComponent = () => {
   };
 
   if (state.succeeded) {
-    return <p>Thanks for your submission!</p>;
+    return  <div className="submission mainContainer">
+                <p className="mainParagraph">Thank you for your submission!</p>
+            </div>;
   }
 
   return (
