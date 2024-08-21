@@ -44,7 +44,7 @@ const FormComponent = () => {
             <p>We are planning a Celebration of Life for Susan, tentatively in mid-September.</p>
             <p>The details are still being worked out. We will post details here when they are complete.</p>
             <p>The contact info boxes below are optional. If you provide your contact information, we will email you with information about the Celebration of Life, when plans are complete.</p>
-            <p>You can also use these contact boxes to send a message to Susan’s husband, David Stillman, particularly if you want info on a video tribute website or a photo gallery of Susan.</p>
+            <p>You can also use these contact boxes to send a message to Susan’s husband, David Stillman, particularly if you want info on a video tribute website or a photo gallery of Susan. Note that these messages are not public. If you want to post a comment about Susan that can be viewed publicly, please go to the online obituary (<a href="https://www.legacy.com/us/obituaries/saltlaketribune/name/susan-lyons-obituary?id=55878015">https://www.legacy.com/us/obituaries/saltlaketribune/name/susan-lyons-obituary?id=55878015</a>), and scroll down to the Memories and Condolences for Susan Lyons section.</p>
           </section>
           <section>
             <Form onSubmit={handleSubmit}>
