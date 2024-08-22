@@ -41,10 +41,17 @@ const FormComponent = () => {
           <img src={memorialPic} alt="Memorial Pic" className="img-fluid mb-4" />
           <section className="mainParagraph">
             <p>Susan Lyons was a beautiful person who had a positive impact on many people.</p>
-            <p>We are planning a Celebration of Life for Susan, tentatively in mid-September.</p>
-            <p>The details are still being worked out. We will post details here when they are complete.</p>
-            <p>The contact info boxes below are optional. If you provide your contact information, we will email you with information about the Celebration of Life, when plans are complete.</p>
-            <p>You can also use these contact boxes to send a message to Susan’s husband, David Stillman, particularly if you want info on a video tribute website or a photo gallery of Susan. Note that these messages are not public. If you want to post a comment about Susan that can be viewed publicly, please go to the online obituary (<a href="https://www.legacy.com/us/obituaries/saltlaketribune/name/susan-lyons-obituary?id=55878015">https://www.legacy.com/us/obituaries/saltlaketribune/name/susan-lyons-obituary?id=55878015</a>), and scroll down to the Memories and Condolences for Susan Lyons section.</p>
+
+            <p>We plan a Celebration of Life for Susan on September 15 at 10 AM. It will be held at the Jewish Community Center of Salt Lake City, 2 Medical Dr N, Salt Lake City, UT 84113. Note that the JCC is a secure facility, and all adults will need to provide an ID in order to be admitted.</p>
+
+            <p>Please consider making a short video to share your favorite memories about Susan at this website: (<a href="https://www.tribute.co/susan-lyons/">https://www.tribute.co/susan-lyons/</a>). We plan to collect these videos and share them at the Celebration of Life.</p>
+
+            <p>I (David Stillman) have been into photography for years, and over the past months, I have spent time curating my photos and created a collection of pictures of Susan: (<a href="https://dstillman.smugmug.com/Susan">https://dstillman.smugmug.com/Susan</a>). Please feel free to enjoy these photos.</p>
+
+            <p>If you want to post a comment about Susan that can be viewed publicly, please go to the online obituary (<a href="https://www.legacy.com/us/obituaries/saltlaketribune/name/susan-lyons-obituary?id=55878015">https://www.legacy.com/us/obituaries/saltlaketribune/name/susan-lyons-obituary?id=55878015</a>), and scroll down to the Memories and Condolences for Susan Lyons section.
+            </p>
+            
+            <p>The contact info boxes below are optional. Please use them only if you wish to send a message to Susan’s husband, David Stillman.</p>
           </section>
           <section>
             <Form onSubmit={handleSubmit}>
