@@ -41,6 +41,11 @@
   margin-bottom: 40px;
   padding: 20px;
 }
+.mainContainer .mainParagraph a {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
 .mainContainer .mainParagraph p {
   margin-bottom: 20px;
 }
