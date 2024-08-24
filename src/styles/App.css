@@ -43,6 +43,11 @@
   max-width: 100%;
   overflow-x: hidden;
 }
+@media (max-width: 1200px) {
+  .mainContainer .mainParagraph {
+    font-size: 18px;
+  }
+}
 .mainContainer .mainParagraph a {
   word-wrap: break-word;
   overflow-wrap: break-word;

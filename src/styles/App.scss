@@ -44,6 +44,10 @@
     max-width: 100%;
     overflow-x: hidden;
 
+    @media (max-width: 1200px) {
+      font-size: 18px;
+    }
+
     a {
       word-wrap: break-word;
       overflow-wrap: break-word;
